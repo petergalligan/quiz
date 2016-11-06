@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+  <title>Bridge of Death Quiz</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+</head>
+
+<body>
+   <div id="intro">
+   <h1>Welcome Brave Knight</h1>
+    <h2>Do you have what it takes to cross.......</h2>
+    <h3 class = "animated bounceInDown">THE BRIDGE OF DEATH</h3>
+  </div>
+  <div class="container">
+  <img src="img/knights.jpg" alt='knights'>
+
+    <div class="questionBlock">
+      <h2 id="question0"></h2>
+      <input id="userAnswer0">
+    </div>
+
+    <div class="questionBlock">
+      <h2 id="question1"></h2>
+      <input id="userAnswer1">
+    </div>
+
+    <div class="questionBlock">
+      <h2 id="question2"></h2>
+      <input id="userAnswer2">
+    </div>
+
+     <div class="questionBlock">
+      <h2 id="question3"></h2>
+      <input id="userAnswer3">
+    </div>
+
+     <div class="questionBlock">
+      <h2 id="question4"></h2>
+      <input id="userAnswer4">
+    </div>
+    <button type="button" onclick="scoreQuiz()">Seal Your Fate</button>
+    <h2 class="correct">Number of Questions Correct: <span id="correct"></span></h2>
+    <h2 class="incorrect">Number of Questions Incorrect: <span id="incorrect"></span></h2>
+  </div>
+
+  <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
+

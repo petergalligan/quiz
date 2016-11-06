@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../img/bridgeKeeper.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+@font-face {
+  src: AnotherDangerDemo.otf;
+  font-family: "AnotherDangerDemo", sans-serif;
+}
+
+@font-face {
+  src: Knights Quest.ttf;
+  font-family: "KnightsQuest", sans-serif;
+}
+
+#intro h1 {
+  font-family: "KnightsQuest", sans-serif;
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+
+}
+#intro h2 {
+  font-family: "KnightsQuest";
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+
+}
+
+#intro h3 {
+  font-family: "AnotherDangerDemo";
+  font-size: 40px;
+  color: red;
+  text-align: center;
+  background-color: black;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 0px;
+  width: 40%;
+  margin-left: 20%;
+}
+
+.container h2 {
+  font-size: 30px;
+  margin-left: 10px;
+}
+.container input {
+  margin-left: 10px;
+}
+
+.container img {
+  z-index: -2;
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+
+.correct {
+  color:green;
+}
+
+.incorrect {
+  color:red;
+}
